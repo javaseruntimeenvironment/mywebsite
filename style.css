@@ -1,19 +1,24 @@
 .txthdr {
     font-family: "monospace" "Arial";
     color: #ffffff;
+
 }
 
 .txthd2 {
     color: #f830f1;
+
 }
 
 .back {
     background-color: #f6efa9;
+
 }
 
 .cntrtxt {
     text-align: center;
+
 }
+
 
 #title {
     background-image: url("3MCTB1.jpg");
@@ -21,21 +26,52 @@
     padding: 200px;
     margin: 10px 5px;
     background-position: center;
+
 }
-.btn1 {
+
+.blur {
+    -webkit-filter: blur(2px);filter: blur(2px);
+}
+
+.button {
+    border: #fff;
+    margin: 15px 10px;
+    color: #fff;
+    padding: 20px 80px;
+    background-color: #000;
+    font-family: "monospace", "arial";
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+
+}
+
+.button1 {
     color: #000;
-    padding: 20px 80px;
     background-color: #fff;
-    border-color: #f20;
+    border: 4px solid #000;
+
 }
-.btn1:hover{
-    padding: 20px 80px;
-    background-color: #f20;
-    border-color: #fff;
+.button1:hover {
+    color: #fff;
+    background-color: #000;
+    border: 4px solid #fff;
+    cursor: pointer;
 
 }
 
-.txtbttn {
-    font-family: "monospace";
-    font-size: 16px;
+.button2 {
+    color: #ddf0ff;
+    background-color: #1a281f;
+    border: 4px solid #ddf0ff;
+
+}
+
+.button2:hover {
+    color: #1a281f;
+    background-color: #ddf0ff;
+    border: 4px solid #1a281f;
+    cursor: pointer;
 }
