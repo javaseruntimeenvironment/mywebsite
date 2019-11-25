@@ -1,0 +1,21 @@
+
+
+.txthdr {
+  font-family: monospace;
+}
+.txthd2 {
+  color: #f830f1;
+}
+.back {
+  background-color: #f6efa9;
+}
+.cntrtxt {
+  text-align: center;
+}
+#title {
+  background-image: url("3MCTB1.jpg");
+  align-content: center;
+  padding: 200px;
+  margin: 20px 30px;
+  background-position: center;
+}
