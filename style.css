@@ -1,16 +1,20 @@
 .txthdr {
-  font-family: "monospace" "Arial";
-  color: #ffffff;
+    font-family: "monospace" "Arial";
+    color: #ffffff;
 }
+
 .txthd2 {
-  color: #f830f1;
+    color: #f830f1;
 }
+
 .back {
-  background-color: #f6efa9;
+    background-color: #f6efa9;
 }
+
 .cntrtxt {
     text-align: center;
 }
+
 #title {
     background-image: url("3MCTB1.jpg");
     align-content: center;
@@ -18,12 +22,14 @@
     margin: 10px 5px;
     background-position: center;
 }
+
 #btn1 {
     margin: 10px;
     padding: 20px 80px;
     background-color: #fff;
     border-color: #f830f1;
 }
+
 .txtbttn {
     color: #000;
     font-family: "monospace";
