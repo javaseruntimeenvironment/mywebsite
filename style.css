@@ -4,9 +4,10 @@
 
 }
 
-.back {
+body, html {
     background-color: #f6efa9;
-
+    margin: 0;
+    padding: 0;
 }
 
 .cntrtxt {
@@ -14,12 +15,20 @@
 
 }
 
+#hero {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+
+}
 
 .titleimg {
     background-image: url("3MCTB1.jpg");
-    filter: blur(4px);
-    -webkit-filter: blur(4px);
-    padding: 25%;
+    height: 100vh;
+    width: 100vw;
+    top: 0%;
+    left: 0%;
+    position: absolute;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,12 +61,13 @@
     width: 80%;
     padding: 300px;
     text-align: center;
+    
 }
 
 .button {
     border: #fff;
     color: #fff;
-    padding: 20px 80px;
+    padding: 25px 80px;
     margin: 10px;
     background-color: #000;
     font-family: "monospace", "arial";
